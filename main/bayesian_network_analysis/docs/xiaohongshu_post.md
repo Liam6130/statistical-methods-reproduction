@@ -14,12 +14,12 @@
 🔬 **研究说了什么？**
 
 McNally等(2017)发表在Psychological Medicine上的这篇论文
-用贝叶斯网络方法检验了PTSD症状之间的关系
+用贝叶斯网络方法检验了**OCD（强迫症）**症状之间的关系
 
 结果发现：
 ▫️ 100%的症状对存在边缘相关
 ▫️ 但控制"潜在疾病因子"后
-▫️ **83%的症状对变得完全独立！**
+▫️ **52%的症状对变得完全独立！**
 
 ---
 
@@ -38,12 +38,14 @@ McNally等(2017)发表在Psychological Medicine上的这篇论文
 
 ![network](figures/network_plot.png)
 
-这是用Python跑出来的症状网络
-16个症状，114条边
+这是用Python跑出来的**OCD症状网络**
+7个症状，15条边
 看起来很"因果"
 
 但BNMC检验告诉你：
 **别被表象欺骗了**
+
+OCD症状：Wash, Check, Hoarding, Reassurance, Ordering, Obsessions, Mental
 
 ---
 
@@ -62,4 +64,4 @@ McNally等(2017)发表在Psychological Medicine上的这篇论文
 
 github.com/Liam6130/statistical-methods-reproduction
 
-#心理学 #科研 #数据分析 #PTSD #贝叶斯网络 #小红书成长笔记
+#心理学 #科研 #数据分析 #OCD #强迫症 #贝叶斯网络 #小红书成长笔记
